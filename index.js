@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //cors
 const cors = require("cors");
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://kennect-client.vercel.app/' }));
 
 app.use(express.json());
 
